@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+#rocketImage {
+    height: 535px;
+}
+
+#topImage, #bottomImage {
+    width: 100vw;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
