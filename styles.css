@@ -120,3 +120,96 @@ footer {
 * Responsivity *
 ****************
 */
+
+@media screen and (min-width: 0) and (max-width: 480px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.45rem;
+    }
+
+    .timer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .subscribe a button {
+        margin-bottom: 20px;
+    }
+
+    #rocketImage {
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #countdownContainer {
+        margin-left: 20px;
+    }
+
+    .imageContainer {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .timer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .subscribe a button {
+        margin-bottom: 20px;
+    }
+
+    #rocketImage {
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #countdownContainer {
+        margin-left: 0;
+    }
+
+    .imageContainer {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    main {
+        align-items: flex-start;
+    }
+
+    #rocketImage {
+        height: 435px;
+    }
+}
